@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+
+<link rel="stylesheet" href="./Assets/style/style.css">
+
+</head>
+<body>
+
+    <!--
+    Tenemos tres formas distintas de agregar estilos a un documento html 
+    1. Inline (en línea) 
+Para trabajar con los estilos inline utilizamos la palabra reservada style y con esto ya le damos la instrucción de lo que queremos añadar.
+Tiene mayor jerarquía sobre la etiqueta style.
+
+    -->
+    <h1>inline</h1>
+    <p style="background-color: aqua;color: blueviolet;font-size: xx-large;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio cum cupiditate aperiam, accusamus sint deleniti non dolores fugiat laboriosam sapiente, quod ipsam eligendi delectus debitis voluptatem nesciunt quasi repellendus magni?</p>
+<!--Utilizando la etiqueta <style> 
+    Los estilos que vamos a implementar es con ese estilo.
+
+    Cuando usamos los estilos dentro de la etiqueta style, "separamos" los estilos de etiqueta, para mantener un código limpio y claro. 
+
+
+-->
+<style>
+body{ 
+    background-color: brown;
+
+}
+    </style>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aperiam repellendus cupiditate vel eligendi totam consequuntur laboriosam, quam voluptatibus reprehenderit enim perferendis earum nihil blanditiis quibusdam, praesentium voluptate quae impedit.</p>
+
+    <!--Referencia a un documento de estilos externa (buena practica)
+    código más limpio.
+    código más entendible.
+    velocidad de lectura en nuestra página.
+    escalabilidad.
+
+    Utilizar estilos de un documento externo significa que vamos a tener dos documentos; uno para html index.html con la estructura y por otro lado tenemos el documento llamado style.css para darle estilo.
+
+
+    -->
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quibusdam adipisci, numquam inventore similique nobis debitis! Nostrum officia minus dolorum tempore dolor distinctio ipsum molestiae optio commodi blanditiis! Iure, assumenda!</p>
+
+   <!--Clases y ID
+todos pertenecemos a la clase CH35 y nuestro ID sería nuestro nombre
+
+la palabra reservada class (.)
+la palabra reservada id (#)
+Un ID se utiliza para seleccionar un solo elemento, mientras que una clase se utiliza para seleccionar más de un elemento. Es como si aplicaras un "IN LINE" pero en CSS :)
+
+-->
+
+<div class="generation">
+<h2 class="CH35" id="Rey">Rey</h2>
+<h2 class="CH35" id="Uriel">Uriel</h2>
+
+</div>
+
+
+<div>
+  <h2 class="CH35" id="Marco">Marco</h2>
+<h2 class="CH35" id="René">René</h2>  
+</div>
+
+
+<!--
+El modelo de caja nos permite establecer el diseño de nuestros sitios web, ya que hace que nuestros elementos se presenten en formas rectangulares y de esta forma podemos modificar el aspecto, tamaño, diseño, etc.
+
+-->
+
+
+
+
+<br>
+<hr>
+<br>
+
+<h3>LISTA DEL SÚPER</h3>
+<ul>
+    <br>
+    <br>
+    <li class="Frutas" style="background-color: plum;">Frutas</li>
+    <ol style="background-color: aquamarine;">
+        <li class="Frutas" id="manzana">manzana</li>
+        <li class="Frutas" id="fresa">fresa</li>
+        <li class="frutas" id="aguacate">aguacate</li>
+    </ol>
+   <li class="carnes">Carnes</li>
+   <ol style="background-color: blanchedalmond;">
+    <li>bistek</li>
+    <li>pollo</li>
+    <li>arrachera</li>
+   </ol>
+   <li class="Lácteos">Lácteos</li>
+   <ol style="background-color: plum;">
+    <li>leche</li>
+    <li>yogurth</li>
+    <li>queso</li>
+   </ol>
+</ul>
+
+<br>
+<br>
+<p style="background-color: aqua;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis enim laborum, id rerum sit praesentium quasi quia impedit alias voluptatem nostrum iure voluptatum perspiciatis iste autem similique? Nihil, explicabo odit!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores ex sed, labore dolor omnis quos dicta impedit nesciunt, doloribus rem reiciendis aliquam voluptatem a laudantium molestias consectetur at deleniti!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda autem eum dicta at tempora ab perspiciatis ipsum et numquam ea, labore quae magni repellendus totam saepe tempore ipsa? Ut, a.</p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+p{ 
+background-color: blue;
+}
+
+#Rey{
+    color:yellow;
+}
+#René{
+    color: greenyellow;
+}
+
+.CH35{
+    color: aquamarine;
+}
+
+.carnes{
+    color: burlywood;
+}
+.Frutas{
+    color: blue;
+}
+#fresa{
+    color: red;
+}
+.Lácteos{
+    color: yellow;
+}
+
+div{
+    width: 200;
+    height: 200;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid bisque;
+}
+.generation{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    border: solid turquoise;
+}
